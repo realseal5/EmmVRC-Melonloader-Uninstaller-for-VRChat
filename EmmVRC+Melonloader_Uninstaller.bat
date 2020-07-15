@@ -13,7 +13,7 @@ echo ^    ^|  ^| \/\  ___/  / __ \^|  ^|__ \___ \ \  ___/  / __ \^|  ^|__
 echo ^    ^|__^|    \____^> (______/____//_____/  \____^> (______/____/ 
 echo [0m
 echo ^    --------------------------------------------------------
-echo ^    ^|  MelonLoader - EmmVRC AutoInstaller v1.6 by realseal ^|
+echo ^    ^|  MelonLoader - EmmVRC UnInstaller by realseal        ^|
 echo ^    ^|  EmmVRC by thetrueyoshifan (thetrueyoshifan.com)     ^|
 echo ^    ^|  MelonLoader by Herp Derpinstine (melonwiki.xyz)     ^|
 echo ^    --------------------------------------------------------
@@ -59,5 +59,10 @@ IF EXIST Mono.Cecil.dll del Mono.Cecil.dll || set /A x=%x%+1
 rem EmmVRC
 IF EXIST Mods\emmVRCLoader.dll del Mods\emmVRCLoader.dll || set /A x=%x%+1
     echo Done!
+echo [32m
+echo ^    --------------------------------------------------------------
+echo ^    ^| Melonloader and EmmVRC have been successfully uninstalled! ^|
+echo ^    --------------------------------------------------------------
+echo [0m
 )
 pause
